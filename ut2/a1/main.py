@@ -37,7 +37,7 @@ if k > 0:
     
 r5= money%2
 
-j = resto5//1
+j = r5//1
 
 if j > 0:
     print("Cantidad de monedas de 1€ = " +str(j))
