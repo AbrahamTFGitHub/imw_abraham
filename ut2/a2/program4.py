@@ -3,10 +3,10 @@ from math import sqrt
 
 r = float(input("Radio de entrada = "))
 
-print ("1. Calcular el diámetro de la circunferencia") 
-print ("2, Calcular el perímetro de la circunferencia")
-print ("3. Calcular el área del circulo")
-print ("4. para salir")
+print ("1. Calcular diámetro de la circunferencia") 
+print ("2, Calcular perímetro de la circunferencia")
+print ("3. Calcular área del circulo")
+print ("4. Salir")
 
 opcion = input("Eliga una opcion: ")
 d = 2*r
@@ -22,6 +22,6 @@ elif opcion == "3":
 elif opcion == "4":
     salir = True
 else:
-    print ("Introduce un numero entre 1 y el 4")
+    print ("Escribe un número del 1 al 4")
  
 print ("Finalizado")
